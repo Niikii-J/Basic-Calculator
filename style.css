@@ -1,0 +1,130 @@
+body {
+    font-family: fantasy, sans-serif;
+    background-color: rgb(5, 20, 1);
+}
+
+#container {
+    width: 1100px;
+    height: 650px;
+    background-image: url('greenbg.jpg');
+    margin: 25px auto;
+    border-radius: 25px;
+    border: 10px solid rgba(57, 210, 30, 0.479);
+}
+
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: blanchedalmond;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.623);
+    border-radius: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    height: 120px;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 14px;
+    font-size: 1rem;
+    color: rgba(144, 122, 112, 0.931);
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(121, 184, 5);
+
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 1rem;
+    font-family: fantasy, sans-serif;
+}
+
+.number, .empty {
+    background-color: blanchedalmond;
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.number:active {
+    font-size: 1.5rem;
+}
+
+.operator:active {
+    font-size: 1.7rem;
+}
+
+.number:focus, .operator:focus {
+    outline: 0;
+}
+
+button:nth-child(1) {
+    font-size: 1rem;
+    background-color: rgb(250, 252, 175);
+}
+
+button:nth-child(2) {
+    font-size: 1rem;
+    background-color: rgb(250, 252, 175);
+}
+
+button:nth-child(3) {
+    font-size: 1rem;
+    background-color: rgb(250, 252, 175);
+}
+
+button:nth-child(4) {
+    font-size: 1.5rem;
+    background-color: rgb(246, 248, 124);
+}
+
+button:nth-child(8) {
+    font-size: 1.5rem;
+    background-color: rgb(250, 208, 117);
+}
+
+button:nth-child(12) {
+    font-size: 1.5rem;
+    background-color: rgb(252, 163, 104);
+}
+
+button:nth-child(16) {
+    font-size: 1.5rem;
+    background-color: rgb(252, 154, 116);
+}
+
+button:nth-child(20) {
+    font-size: 1.5rem;
+    background-color: rgb(152, 224, 17);
+}
+
+hr {
+    color: rgba(0, 0, 0, 0.315);
+    margin: 0;
+}
